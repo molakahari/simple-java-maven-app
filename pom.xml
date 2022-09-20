@@ -42,13 +42,13 @@
       </plugins>
     </pluginManagement>
     <plugins>
-    <plugin>
+<!--     <plugin> -->
         <!-- Build an executable JAR -->
 <!--        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.2.0</version> -->
         
-          <groupId>org.apache.maven.plugins</groupId>
+<!--           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-war-plugin</artifactId>
           <version>3.2.2</version>
         
@@ -61,7 +61,7 @@
             </manifest>
           </archive>
         </configuration>
-      </plugin>
+      </plugin> -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
